@@ -55,7 +55,6 @@ body {
 
 .editor-title-lang {
   display: flex;
-  align-items: end;
   margin-right: 10px;
 }
 
@@ -97,4 +96,26 @@ iframe {
 
 .btn:hover {
   font-size: 1.1rem;
+}
+
+.footer {
+  position: fixed;
+  right: -230px;
+  z-index: 1;
+  background-color: beige;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  font-family: "Baloo Tammudu 2", cursive, sans-serif;
+  word-spacing: 3px;
+  border-radius: 5px;
+  transition: right 0.5s;
+}
+
+.footer:hover {
+  right: 0;
+}
+
+.footer-content a {
+  text-decoration: none;
+  letter-spacing: 0.5px;
 }

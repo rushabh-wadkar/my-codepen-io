@@ -34,10 +34,10 @@ const Editor = ({ language, title, value, setValue }) => {
     <div className={`editor-container ${collapsed ? "collapsed" : ""}`}>
       <div className="editor-title">
         <div className="editor-title-lang">
-          <img className="editor-icon" src={returnImage()} />
+          <img alt="lang-icons" className="editor-icon" src={returnImage()} />
           {title}
         </div>
-        <button class="btn" onClick={collapseButtonHandler}>
+        <button className="btn" onClick={collapseButtonHandler}>
           {collapsed ? <BsArrowsAngleContract /> : <BsArrowsAngleExpand />}
         </button>
       </div>

@@ -1,5 +1,6 @@
 import Editor from "./Editor";
 import { useEffect, useState } from "react";
+import FootLink from "./FootLink";
 
 const App = () => {
   const [htmlValue, setHtmlValue] = useState("");
@@ -69,6 +70,7 @@ const App = () => {
           frameBorder="0"
         ></iframe>
       </div>
+      <FootLink />
     </div>
   );
 };
